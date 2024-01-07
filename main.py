@@ -7,7 +7,7 @@ class App(tk.Tk):
         super().__init__(*args, **kwargs)
         self.title("Do you love me?")
         self.geometry("400x200")
-        self.message_label = tk.Label(self, text="Do you love me?", font=("Helvetica", 16))
+        self.message_label = tk.Label(self, text="are you pou?", font=("Helvetica", 16))
         self.message_label.pack(pady=20)
         self.yes_button = tk.Button(self, text="Yes", command=self.show_love)
         self.no_button = tk.Button(self, text="No")
